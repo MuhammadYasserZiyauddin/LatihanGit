@@ -1,1 +1,6 @@
-Rencana Pengembangan Proyek di Masa Mendatang
+Rencana Pengembangan Proyek di Masa Mendatang :
+1. Implementasi fitur VS Code bagi saya.
+2. Sebagai Modul pembelajaran Coding saya.
+3. Menjadi tempat dalam pengumpulan file-file tugas saya yang mendatang.
+4. Tempat Code-code yang telah saya pelajari untuk dibuat.
+5. Menjadi File proyek yang bisa membantu teman-teman saya nantinya.
