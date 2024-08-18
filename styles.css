@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    background-color: #f0f0f0;
+}
+/* Selektor Elemen: Mengubah warna teks dari semua elemen <p> menjadi merah */
+p {
+    color: red;
+}
+
+/* Selektor Kelas: Mengubah latar belakang dari div dengan kelas "container" menjadi kuning */
+.container {
+    background-color: yellow;
+}
+
+/* Selektor ID: Mengubah warna teks paragraf dengan ID "highlight" menjadi oranye dan ukurannya menjadi 20px */
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+
+/* Selektor Atribut: Mengubah warna teks dari tautan <a> menjadi biru hanya jika pengguna mengarahkan kursor ke atasnya (hover) */
+a:hover {
+    color: blue;
+}
+/* Aturan CSS untuk div dengan ID "boxModel" */
+#boxModel {
+    width: 300px;           /* Content: Lebar div */
+    height: 150px;          /* Content: Tinggi div */
+    padding: 20px;          /* Padding: 20px di semua sisi */
+    border: 5px solid black; /* Border: 5px solid berwarna hitam */
+    margin: 15px;           /* Margin: 15px di semua sisi */
+}
+/* Aturan CSS untuk kelas "flex-container" */
+.flex-container {
+    display: flex;             /* Mengatur display menjadi flex */
+    justify-content: space-between; /* Mengatur jarak antar item dengan space-between */
+    align-items: center;       /* Mengatur item agar sejajar secara vertikal di tengah */
+}
+
+/* Aturan CSS untuk kelas "item" */
+.item {
+    padding: 10px;             /* Menambahkan padding 10px di dalam elemen */
+    border: 2px solid gray;    /* Menambahkan border 2px solid berwarna abu-abu di sekitar elemen */
+}
+/* Aturan CSS untuk heading h2 menjadi Arial, ukuran font menjadi 30px, dan ketebalan font menjadi bold. */
+h2 {
+    font-family: 'Arial', sans-serif;       /* Mengubah gaya font menjadi Arial */
+    font-size: 30px;            /* Mengatur ukuran font menjadi 30px */
+    font-weight: bold;          /* Menambahkan ketebalan font menjadi Bold */
+}
+/* Background */
+.background-image {
+    background-image: url('background.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Memastikan gambar menutupi seluruh elemen */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+}
+/* Styling Kotak */
+.advanced-style {
+    border-radius: 10px; /* Membuat sudut div menjadi bulat dengan radius 10px */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan kotak dengan offset dan blur */
+    background: linear-gradient(to right, blue, purple); /* Latar belakang gradien dari biru ke ungu */
+}
+/* Media Query untuk lebar layar kurang dari 600px */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; /* Merubah layaout ke Column */
+    }
+    h2 {
+        font-size: 24px; /* Mengubah ukuran font h2 menjadi 24px */
+    }
+
+    body {
+        background-color: #e0f7fa; /* Mengubah warna latar belakang halaman menjadi biru muda */
+    }
+}
