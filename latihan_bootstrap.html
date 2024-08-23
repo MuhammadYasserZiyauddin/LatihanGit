@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS Khusus untuk Media Queries -->
+    <style>
+        @media (max-width: 768px) {
+            aside {
+                display: none;
+            }
+            main {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Konten Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Layout Containe Utama -->
+    <div class="container mt-4">
+        <!-- Konten Header -->
+        <div class="row">
+            <header class="col-12">
+                <h1>Header</h1>
+            </header>
+        </div>
+
+        <!-- Navigasi dan Konten Utama -->
+        <div class="row">
+            <nav class="col-12 col-md-4">
+                <h2>Navigasi</h2>
+                <p>Teks navigasi...</p>
+            </nav>
+            <main class="col-md-8">
+                <h2>Konten Utama</h2>
+                <p>Teks konten utama...</p>
+            </main>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="row">
+            <aside class="d-none d-md-block col-md-4">
+                <h2>Sidebar</h2>
+                <p>Teks sidebar...</p>
+            </aside>
+        </div>
+
+        <!-- Cards -->
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kartu 1</h5>
+                        <p class="card-text">Beberapa contoh teks singkat untuk dijadikan dasar judul kartu.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kartu 2</h5>
+                        <p class="card-text">Beberapa contoh teks singkat untuk dijadikan dasar judul kartu.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kartu 3</h5>
+                        <p class="card-text">Beberapa contoh teks singkat untuk dijadikan dasar judul kartu.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Konten Footer -->
+        <div class="row">
+            <footer class="bg-dark text-white p-3 col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4">Links</div>
+                        <div class="col-12 col-md-4">About Us</div>
+                        <div class="col-12 col-md-4">Contact Info</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
